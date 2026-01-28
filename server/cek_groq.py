@@ -11,7 +11,7 @@ except ImportError:
 
 # --- KONFIGURASI API KEY ---
 # Ganti dengan API Key Groq Anda, atau biarkan mengambil dari environment
-API_KEY = "" # <--- TEMPEL API KEY GROQ DISINI
+API_KEY = "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" # <--- TEMPEL API KEY GROQ DISINI
 
 if API_KEY == "gsk_..." or not API_KEY:
     # Coba ambil dari environment variable jika di script kosong
