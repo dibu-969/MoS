@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    // Simulasi data sensitif
+    char data[] = "IniDataRahasia";
+    
+    // LOGIKA MENCURIGAKAN: XOR Loop (Biasanya dipakai Ransomware untuk enkripsi)
+    printf("Starting encryption...\n");
+    
+    for(int i = 0; i < 14; i++) {
+        // Instruksi XOR (^) ini yang akan dicari oleh AI di Assembly
+        data[i] = data[i] ^ 0xFF; 
+    }
+    
+    printf("Data encrypted!\n");
+    
+    // Infinite Loop (Agar program tidak langsung tutup, seperti virus resident)
+    while(1) {
+        // Diam di memori
+    }
+    
+    return 0;
+}
