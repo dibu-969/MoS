@@ -6,7 +6,7 @@ from capstone import *
 
 # --- KONFIGURASI API KEYS ---
 GOOGLE_API_KEY = "AIzaSyC4a80WCEL-csLYyUGCVKOseizSaAjYiH4" # <--- PASTIKAN API KEY BENAR
-GROQ_API_KEY = ""    # <--- PASTIKAN API KEY BENAR
+GROQ_API_KEY = "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"    # <--- PASTIKAN API KEY BENAR
 
 MODELS_AVAILABLE = {"gemini": False, "groq": False}
 
